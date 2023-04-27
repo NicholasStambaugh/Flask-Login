@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Blue-Grey Login System - Dashboard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="#" class="brand">Blue-Grey Login System</a>
+    <ul class="nav">
+      <li><a href="#">Dashboard</a></li>
+      <li><a href="#">Profile</a></li>
+      <li><a href="#">Logout</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <h1>Dashboard</h1>
+    <p>Welcome to your dashboard, {{ username }}!</p>
+    <p>You are logged in as {{ username }}.</p>
+  </div>
+</body>
+</html>
