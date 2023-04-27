@@ -15,7 +15,7 @@ Once the Flask development server is running, open a web browser and navigate to
 The dashboard page displays a welcome message with the user's username. From the dashboard, users can navigate to other pages using the links in the navigation bar.
 
 ### Credits
-This project was built by [Your Name Here] as a learning exercise. The blue-grey color theme was adapted from the Material Design color palette. The project uses the Flask web framework and the Werkzeug WSGI toolkit.
+This project was built by Nick Stambaugh as a learning exercise. The blue-grey color theme was adapted from the Material Design color palette. The project uses the Flask web framework and the Werkzeug WSGI toolkit.
 
 ### License
 This project is licensed under the MIT License.
